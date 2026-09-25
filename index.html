@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#24130d" />
+  <meta name="description" content="Freshers' Party 2026 — Data Science & AIML, Batch 2025." />
+  <title>Freshers' Party 2026 | Welcome to the Family</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Freshers Party home">
+      <span class="brand-mark">✦</span>
+      <span>DS × AIML</span>
+    </a>
+    <nav>
+      <a href="#invite">Invitation</a>
+      <a href="#details">Details</a>
+      <a href="#note">Note</a>
+    </nav>
+    <a class="top-cta" href="#invite">View Invite</a>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">CLUSTER UNIVERSITY • 2026</p>
+        <h1>Welcome to the <em>Family.</em></h1>
+        <p class="hero-text">
+          A warm Kashmiri welcome for the newest members of
+          <strong>Data Science & AIML</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#invite">Open Invitation <span>↗</span></a>
+          <a class="btn btn-ghost" href="#details">Event Details</a>
+        </div>
+        <div class="micro-line">
+          <span>28 SEPTEMBER 2026</span><i></i><span>10:00 AM</span>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay-1">
+        <div class="arch">
+          <div class="arch-inner">
+            <div class="floating-chip chip-one">DS</div>
+            <div class="floating-chip chip-two">AI</div>
+            <div class="card-glow"></div>
+            <img src="assets/invitation.png" alt="Freshers' Party invitation card" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-strip">
+      <span>✦</span>
+      <p>Tradition in our roots. Technology in our journey. <strong>Friendship in our future.</strong></p>
+      <span>✦</span>
+    </section>
+
+    <section class="section invitation-section" id="invite">
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE INVITATION</p>
+        <h2>Press play. <em>Feel the welcome.</em></h2>
+        <p>Our invitation, brought to life with a little Kashmiri warmth and a little tech magic.</p>
+      </div>
+
+      <div class="video-frame reveal delay-1">
+        <div class="video-top">
+          <span><i></i> FRESHERS' PARTY</span>
+          <span>DS × AIML • BATCH 2025</span>
+        </div>
+        <video id="inviteVideo" controls playsinline preload="metadata" poster="assets/invitation.png">
+          <source src="assets/invitation.mp4" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
+        <div class="video-bottom">
+          <button id="playInvite" class="mini-btn">▶ Play Invitation</button>
+          <span>Best viewed in portrait mode</span>
+        </div>
+      </div>
+
+      <div class="poster-wrap reveal delay-2">
+        <p class="poster-label">THE COMPLETE INVITATION</p>
+        <img src="assets/invitation.png" alt="Complete Freshers' Party invitation" loading="lazy" />
+      </div>
+    </section>
+
+    <section class="section details-section" id="details">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <h2>Everything you <em>need to know.</em></h2>
+      </div>
+
+      <div class="detail-grid">
+        <article class="detail-card reveal">
+          <span class="detail-icon">◷</span>
+          <p>DATE & TIME</p>
+          <h3>Monday, 28 September</h3>
+          <strong>10:00 AM</strong>
+        </article>
+        <article class="detail-card reveal delay-1">
+          <span class="detail-icon">⌖</span>
+          <p>VENUE</p>
+          <h3>Main Campus</h3>
+          <strong>Cluster University</strong>
+        </article>
+        <article class="detail-card reveal delay-2">
+          <span class="detail-icon">✦</span>
+          <p>DRESS CODE</p>
+          <h3>Indian Traditional</h3>
+          <strong>Come in your best traditional look.</strong>
+        </article>
+      </div>
+
+      <div class="calendar-card reveal">
+        <div>
+          <p class="eyebrow">HOSTED BY</p>
+          <h3>Students of Data Science & AIML</h3>
+          <p>Batch 2025</p>
+        </div>
+        <button id="calendarBtn" class="btn btn-primary">＋ Add to Calendar</button>
+      </div>
+    </section>
+
+    <section class="section note-section" id="note">
+      <div class="note-card reveal">
+        <div class="note-decoration">❦</div>
+        <p class="eyebrow">A LITTLE NOTE</p>
+        <h2>Dear Juniors,</h2>
+        <p class="note-text">
+          You asked for a Freshers' Party… <br />
+          <strong>We took the assignment seriously. 😎</strong>
+        </p>
+        <p>
+          Come ready to meet new people, make memories, and officially become
+          part of the family.
+        </p>
+        <div class="note-sign">— Your Seniors, DS × AIML</div>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <div class="final-ornament">✦</div>
+      <p class="eyebrow">28 • 09 • 2026</p>
+      <h2>Let's welcome our<br /><em>newest members!</em></h2>
+      <p>See you there. Don't be late. 👀</p>
+      <a class="btn btn-light" href="#invite">Rewatch Invitation ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>FRESHERS' PARTY 2026</span>
+    <span>DATA SCIENCE × AIML • BATCH 2025</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
